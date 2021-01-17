@@ -1,0 +1,28 @@
+{
+  "name": "cdio2",
+  "version": "1.0.0",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint-config-reverentgeek": "^3.1.1",
+    "mssql": "^6.2.3"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DoVuDung/cdio2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DoVuDung/cdio2/issues"
+  },
+  "homepage": "https://github.com/DoVuDung/cdio2#readme",
+  "description": ""
+}

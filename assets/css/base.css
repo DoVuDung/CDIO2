@@ -1,0 +1,53 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    /*hack*/
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.grid {
+    width: 100%;
+    max-width: auto;
+    margin: 0 auto;
+}
+
+.gird__full-width {
+    width: 100%;
+}
+
+.grow__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a {
+    color: var(--text-color);
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+
+/*Animation*/
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
